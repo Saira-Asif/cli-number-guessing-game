@@ -1,6 +1,6 @@
 {
   "name": "sai-cli-number-guessing-game",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "This is CLI based Number Guessing game.",
   "main": "index.js",
   "type": "module",

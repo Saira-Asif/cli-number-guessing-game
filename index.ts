@@ -7,13 +7,13 @@ import inquirer from "inquirer";
 //? 3) Compare user input with computer generated number and show result.
 
 
-const randomNumber = 24;
+const randomNumber = Math.floor(Math.random() * 10 +1);
 
 const Answer = await inquirer.prompt([{
  
     name: "UserGuessedNumber",
     type: "number",
-    message:"Please Guess your Number."
+    message:"Please Guess a Number from 1-10."
 }])
 
 if (Answer.UserGuessedNumber === randomNumber) {
